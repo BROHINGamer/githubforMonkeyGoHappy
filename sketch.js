@@ -24,7 +24,7 @@ function setup()
   jungle.x=jungle.width/2;
     
   monkey = createSprite(200,280,20,20);
-  monkey.addAnimation("walking",MImage);
+  monkey.addAnimation("walking",mImage);
   monkey.scale=0.1;
   
   gameOver = createSprite(300,160,20,20);
